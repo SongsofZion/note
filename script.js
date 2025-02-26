@@ -21,7 +21,7 @@ const initCodeEditor = () => {
         lineNumbers: true,
         theme: 'dracula',
         readOnly: readOnly,
-        lineWrapping: false,
+        lineWrapping: true,
         scrollbarStyle: 'simple',
     });
     if (readOnly) {
